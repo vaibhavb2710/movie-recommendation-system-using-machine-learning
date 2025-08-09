@@ -11,6 +11,7 @@ It recommends movies based on similarity scores computed from their features (li
 - Uses **TMDB API** to fetch movie posters.
 - Well-structured code with modular design.
 - Deployed using **Heroku** (or can be deployed locally).
+
 📂 Project Structure
 ├── app.py # Main Streamlit application
 ├── requirements.txt # Python dependencies
