@@ -10,21 +10,6 @@ It recommends movies based on similarity scores computed from their features (li
 - **Streamlit web app** for an interactive UI.
 - Uses **TMDB API** to fetch movie posters.
 - Well-structured code with modular design.
-- Deployed using **Heroku** (or can be deployed locally).
-
-📂 Project Structure
-├── app.py # Main Streamlit application
-├── requirements.txt # Python dependencies
-├── Movie Recommender System Data Analysis.ipynb # Data exploration & preprocessing
-├── src/ # Utility functions and helpers
-├── data/ # Raw data files (if any)
-├── artifacts/ # Saved ML models & processed data
-├── demo/ # Screenshots of the app
-├── setup.py # Package setup file
-├── setup.sh # Shell script for deployment
-├── Procfile # Heroku deployment config
-├── LICENSE # License file
-└── README.md # Project documentation
 
 🚀 Installation & Setup
 1. Clone the repository
