@@ -28,42 +28,27 @@ It recommends movies based on similarity scores computed from their features (li
 🚀 Installation & Setup
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/movie-recommendation-system-ml.git
-cd movie-recommendation-system-ml
+git clone https://github.com/vaibhavb2710/movie-recommendation-system-using-machine-learning.git
+cd movie-recommendation-system-using-machine-learning
 Install dependencies
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Run the application
-
-bash
-Copy
-Edit
 streamlit run app.py
 Access the app
 Go to http://localhost:8501 in your browser.
 
 🛠️ How It Works
 Data Preprocessing:
-
 Reads movie dataset.
-
 Extracts relevant features (overview, genre, cast, crew).
-
 Cleans and tokenizes data.
 
 Feature Extraction:
-
 Converts text data into vectors using CountVectorizer.
-
 Calculates similarity scores using cosine similarity.
 
 Recommendation:
-
 When a user selects a movie, the system finds the most similar movies.
-
 Displays top recommendations with posters fetched via TMDB API.
 
 📸 Demo
@@ -72,9 +57,6 @@ Here are some screenshots of the app:
 
 📦 Requirements
 The main dependencies are:
-nginx
-Copy
-Edit
 streamlit
 pandas
 numpy
